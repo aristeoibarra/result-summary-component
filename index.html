@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <title>Result Summary</title>
+</head>
+
+<body>
+    <main class="main">
+        <div class="card">
+            <div id="result-container" class="card__left"></div>
+            <div class="card__right">
+                <h3 class="card__right-title">Summary</h3>
+                <div id="summary-container" class="card__right-summary-items"></div>
+                <button class="card__right-btn-continue">Continue</button>
+            </div>
+        </div>
+    </main>
+
+    <template id="result-template">
+        <h1 class="card__left-title">Your Result</h1>
+        <div class="card__left-circle-container">
+            <div class="card__left-circle-result">
+                <span class="card__left-circle-number"></span>
+                <span class="card__left-circle-text">of 100</span>
+            </div>
+        </div>
+        <div class="card__left-info">
+            <h2 class="card__left-info-title"></h2>
+            <p class="card__left-info-message"></p>
+        </div>
+    </template>
+
+    <template id="summary-template">
+        <div class="card__right-summary-item">
+            <div class="card__right-summary-item-info">
+                <img class="card__right-summary-item-icon">
+                <h4 class="card__right-summary-item-name"></h4>
+            </div>
+            <div class="card__right-summary-item-result">
+                <span class="card__right-summary-item-result-value"></span>
+                <span class="card__right-summary-item-result-separator">/</span>
+                <span class="card__right-summary-item-result-max">100</span>
+            </div>
+        </div>
+    </template>
+
+    <script src="/javascript/index.js"></script>
+</body>
+
+</html>

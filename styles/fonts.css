@@ -1,0 +1,22 @@
+@import url('/assets/fonts/HankenGrotesk-VariableFont_wght.ttf');
+
+@font-face {
+    font-family: 'Hanken Grotesk';
+    src: url("/assets/fonts/static/HankenGrotesk-Medium.ttf");
+    font-weight: var(--font-weight-medium);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hanken Grotesk';
+    src: url("/assets/fonts/static/HankenGrotesk-Bold.ttf");
+    font-weight: var(--font-weight-bold);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hanken Grotesk';
+    src: url("/assets/fonts/static/HankenGrotesk-ExtraBold.ttf");
+    font-weight: bold;
+    font-style: normal;
+}

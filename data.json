@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Reaction",
+        "icon": "/assets/images/icon-reaction.svg",
+        "color": "red",
+        "score": 80
+    },
+    {
+        "id": 2,
+        "name": "Memory",
+        "icon": "/assets/images/icon-memory.svg",
+        "color": "yellow",
+        "score": 92
+    },
+    {
+        "id": 3,
+        "name": "Verbal",
+        "icon": "/assets/images/icon-verbal.svg",
+        "color": "green",
+        "score": 61
+    },
+    {
+        "id": 4,
+        "name": "Visual",
+        "icon": "/assets/images/icon-visual.svg",
+        "color": "blue",
+        "score": 72
+    }
+]
