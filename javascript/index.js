@@ -31,6 +31,7 @@
     $category.classList.add(`card__right-summary-item-name--${item.color}`);
     $category.textContent = item.name;
     $icon.src = item.icon;
+    $icon.alt = `${item.name} icon`;
     $value.textContent = item.score;
 
     $summaryContainer.appendChild($summaryTemplateClone);
